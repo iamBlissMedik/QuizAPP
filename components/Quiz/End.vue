@@ -19,7 +19,7 @@ const { percentageScore } = storeToRefs(store);
         class="neumorph cursor-pointer px-4 py-2 rounded bg-[#0880d6] min-w-[140px] text-[15px] text-white w-7/12"
         @click="store.restartQuiz()"
       >
-        GO TO HOME
+        GO HOME
       </button>
     </div>
   </div>

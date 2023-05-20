@@ -5,7 +5,7 @@ const store = useQuizStore();
 const { quizQuestion, quizStart, quizEnd } = storeToRefs(store);
 </script>
 <template>
-  <main class="h-screen w-screen flex justify-center items-center quiz-app">
+  <main class="h-screen w-screen flex justify-center px-3 items-center quiz-app">
     <NuxtLayout>
       <Transition name="fade" mode="out-in">
         <div v-if="quizStart">
